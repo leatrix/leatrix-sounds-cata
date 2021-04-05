@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 2.5.00 (4th April 2021)
+	-- Leatrix Sounds 2.5.01 (5th April 2021)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB, LeaDropList = {}, {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "2.5.00"
+	LeaSoundsLC["AddonVer"] = "2.5.01"
 	LeaSoundsLC["RestartReq"] = nil
 
 	-- Get locale table
@@ -1090,6 +1090,6 @@
 		pTex:SetAlpha(0.2)
 		pTex:SetTexCoord(0, 1, 1, 0)
 
-		InterfaceOptions_AddCategory(interPanel)
+		-- InterfaceOptions_AddCategory(interPanel)
 
 	end
