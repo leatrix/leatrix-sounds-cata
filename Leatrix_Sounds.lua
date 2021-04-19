@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 2.5.02 (14th April 2021)
+	-- Leatrix Sounds 2.5.03 (19th April 2021)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB, LeaDropList = {}, {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "2.5.02"
+	LeaSoundsLC["AddonVer"] = "2.5.03"
 	LeaSoundsLC["RestartReq"] = nil
 
 	-- Get locale table
@@ -781,10 +781,6 @@
 						end
 						-- Enable sound if required
 						if GetCVar("Sound_EnableAllSound") == "0" then SetCVar("Sound_EnableAllSound", "1") end
-						-- Enable dialog sounds if required
-						if GetCVar("Sound_EnableDialog") == "0" then SetCVar("Sound_EnableDialog", "1") end
-						-- Set dialog sound to maximum if required
-						if GetCVar("Sound_DialogVolume") ~= "1" then SetCVar("Sound_DialogVolume", "1") end
 						-- Disable music if it's currently enabled
 						if GetCVar("Sound_EnableMusic") == "1" then	SetCVar("Sound_EnableMusic", "0") end
 						-- Enable the stop button
@@ -796,8 +792,14 @@
 						-- Play track
 						local file, soundID = item:match("([^,]+)%#([^,]+)")
 						if strfind(file, ".mp3") or strfind(file, ".ogg") then
+							-- Play sound file
 							void, musicHandle = PlaySoundFile(file, "Master")
 						else
+							-- Enable dialog sounds if required
+							if GetCVar("Sound_EnableDialog") == "0" then SetCVar("Sound_EnableDialog", "1") end
+							-- Set dialog sound to maximum if required
+							if GetCVar("Sound_DialogVolume") ~= "1" then SetCVar("Sound_DialogVolume", "1") end
+							-- Play sound kit
 							void, musicHandle = PlaySound(soundID, "Master", false, true)
 						end
 						-- Remember scroll frame position
@@ -1074,7 +1076,12 @@
 		maintitle:ClearAllPoints()
 		maintitle:SetPoint("TOP", 0, -72)
 
-		local subTitle = LeaSoundsLC:MakeTx(interPanel, "curseforge.com/wow/addons/leatrix-sounds-classic", 0, 0)
+		local expTitle = LeaSoundsLC:MakeTx(interPanel, "Burning Crusade Classic", 0, 0)
+		expTitle:SetFont(expTitle:GetFont(), 32)
+		expTitle:ClearAllPoints()
+		expTitle:SetPoint("TOP", 0, -152)
+
+		local subTitle = LeaSoundsLC:MakeTx(interPanel, "curseforge.com/wow/addons/leatrix-sounds-bcc", 0, 0)
 		subTitle:SetFont(subTitle:GetFont(), 20)
 		subTitle:ClearAllPoints()
 		subTitle:SetPoint("BOTTOM", 0, 72)
@@ -1090,6 +1097,6 @@
 		pTex:SetAlpha(0.2)
 		pTex:SetTexCoord(0, 1, 1, 0)
 
-		-- InterfaceOptions_AddCategory(interPanel)
+		InterfaceOptions_AddCategory(interPanel)
 
 	end
