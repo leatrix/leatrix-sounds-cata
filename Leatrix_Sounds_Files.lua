@@ -1,13 +1,13 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound File Listing
-	-- Community CSV for wow_classic_beta 2.5.1.38339 (ClassicBeta)
+	-- Community CSV for wow_classic_beta 2.5.1.38401 (ClassicBeta)
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["ListFileVersion"] = "2.5.1.38339"
+	Leatrix_Sounds["ListFileVersion"] = "2.5.1.38401"
 
 	Leatrix_Sounds["MP3"] = {
 

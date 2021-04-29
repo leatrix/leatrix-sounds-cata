@@ -1,15 +1,15 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound Kit Listing
-	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.1.38339
-	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.1.38339
+	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.1.38401
+	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.1.38401
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.1.38339"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.1.38339"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.1.38401"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.1.38401"
 
 	Leatrix_Sounds["Music"] = {
 
@@ -3084,6 +3084,12 @@
 		"ChromaticCrystals#10919",
 		"circle_of_renewal_impact#10796",
 		"ClapSounds#6576",
+		"Classic Choice UI - Enter World - BCC - FelReaver (BCC) [NESTED]#180461",
+		"Classic Choice UI - Enter World - BCC (BCC)#180458",
+		"Classic Choice UI - Enter World - Classic - Murloc (BCC) [NESTED]#180463",
+		"Classic Choice UI - Enter World - Classic (BCC)#180457",
+		"Classic Choice UI - Generic Red Button Press (BCC)#180456",
+		"Classic Choice UI - Open Menu (BCC)#180455",
 		"Clearcasting_Impact_Chest#4874",
 		"Cleave#1489",
 		"CleaveTarget#3112",
