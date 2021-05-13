@@ -1,18 +1,19 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound File Listing
-	-- Community CSV for wow_classic_beta 2.5.1.38401 (ClassicBeta)
+	-- Community CSV for wow_classic_beta 2.5.1.38644 (ClassicBeta)
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["ListFileVersion"] = "2.5.1.38401"
+	Leatrix_Sounds["ListFileVersion"] = "2.5.1.38644"
 
 	Leatrix_Sounds["MP3"] = {
 
 		"interface/cinematics/logo.mp3#625988",
 		"interface/cinematics/wow_intro.mp3#625564",
+		"interface/cinematics/wow_intro_bc.mp3#625565",
 		"sound/cinematicvoices/bloodelfnarration.mp3#222756",
 		"sound/cinematicvoices/draeneinarration.mp3#222758",
 		"sound/cinematicvoices/dwarfnarration.mp3#222759",

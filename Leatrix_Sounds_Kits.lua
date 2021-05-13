@@ -1,15 +1,15 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound Kit Listing
-	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.1.38401
-	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.1.38401
+	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.1.38644
+	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.1.38644
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.1.38401"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.1.38401"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.1.38644"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.1.38644"
 
 	Leatrix_Sounds["Music"] = {
 
@@ -123,7 +123,16 @@
 		"Menu-Credits01_04#139627",
 		"Menu-Credits01_05#139628",
 		"Menu-Credits01_06#139629",
-		"Menu-Credits02#10804",
+		"Menu-Credits02_00#10804",
+		"Menu-Credits02_01#181016",
+		"Menu-Credits02_02#181017",
+		"Menu-Credits02_03#181018",
+		"Menu-Credits02_04#181019",
+		"Menu-Credits02_05#181020",
+		"Menu-Credits02_06#181021",
+		"Menu-Credits02_07#181022",
+		"Menu-Credits02_08#181023",
+		"Menu-Credits02_09#181024",
 		"Moment-Angelic01#4517",
 		"Moment-Battle02#6045",
 		"Moment-Cursed Land#7875",
@@ -2588,6 +2597,8 @@
 		"Battleguard Sartura - Agro#8646",
 		"Battleguard Sartura - On Kill#8647",
 		"BattleShoutTarget#3113",
+		"BC Classic UI - Arena Team Color Picker#182116",
+		"BC Classic UI - Character Sheet - Arena Team Select#182117",
 		"BE_ArcaneBomb_Closed#10931",
 		"BE_ArcaneBomb_Open#10930",
 		"BE_Banner_Kael_01#10004",
@@ -7892,6 +7903,10 @@
 		"Velen#11789",
 		"VengeanceEffect#8072",
 		"victory_rush_impact#10043",
+		"VO_ZA2_DAAKARA_ATTACK#24354",
+		"VO_ZA2_DAAKARA_ATTACKCRIT#24355",
+		"VO_ZA2_DAAKARA_WOUND#24357",
+		"VO_ZA2_DAAKARA_WOUNDCRIT#24358",
 		"VoiceChatOff#11075",
 		"VoiceChatOff(1)#11083",
 		"VoiceChatOn#11074",
