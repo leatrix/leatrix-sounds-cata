@@ -1,7 +1,7 @@
-2.5.07 - 13th May 2021
-- Sounds updated to game version 2.5.1.38644.
+2.5.33.alpha.1 - 20th May 2021
+- Sounds updated to 2.5.1.38707.
 
-2.5.06 - 4th May 2021
-- Initial release for Burning Crusade Classic.
+2.5.07 - 4th May 2021
+- Welcome to Burning Crusade Classic.
 - Leatrix Sounds for Burning Crusade Classic is based on Leatrix Sounds for World of Warcraft Classic.
 - Thanks to Blizzard for the day one beta access allowing me to bring Leatrix addons to the BCC community.
