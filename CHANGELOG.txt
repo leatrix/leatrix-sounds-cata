@@ -1,4 +1,4 @@
-2.5.33.alpha.1 - 20th May 2021
+2.5.33 - 20th May 2021
 - Sounds updated to 2.5.1.38707.
 
 2.5.07 - 4th May 2021
