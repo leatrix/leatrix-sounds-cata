@@ -1,4 +1,4 @@
-2.5.34 - 21st May 2021
+2.5.36 - 21st May 2021
 - Maintenance update.
 
 2.5.33 - 20th May 2021
