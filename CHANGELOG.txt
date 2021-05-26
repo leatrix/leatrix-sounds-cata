@@ -1,5 +1,5 @@
-2.5.36 - 21st May 2021
-- Maintenance update.
+2.5.37 - 26th May 2021
+- Sounds updated to 2.5.1.38757.
 
 2.5.33 - 20th May 2021
 - Sounds updated to 2.5.1.38707.
