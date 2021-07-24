@@ -1,15 +1,15 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound Kit Listing
-	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.1.39170
-	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.1.39170
+	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.1.39475
+	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.1.39475
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.1.39170"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.1.39170"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.1.39475"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.1.39475"
 
 	Leatrix_Sounds["Music"] = {
 
@@ -7941,6 +7941,8 @@
 		"WarpStalkerAggro#10054",
 		"WarpStalkerAttack#10050",
 		"WarpStalkerDeath#10053",
+		"WarpStalkerMountBC - Summon#182691",
+		"WarpStalkerMountBC - Summon (NESTED)#182692",
 		"WarpStalkerWound#10051",
 		"WarpStalkerWoundCrit#10052",
 		"WarpStorm_Large#10093",
