@@ -3,11 +3,9 @@
 ## Title: Leatrix Sounds
 ## Notes: Massive collection of game sounds.
 
-## Version: 2.5.49.alpha.1
+## Version: 2.5.49.alpha.2
 ## Author: Leatrix
 ## SavedVariables: LeaSoundsDB
-
-## X-Curse-Project-ID: 304659
 
 Leatrix_Sounds_Locale.lua
 Leatrix_Sounds_Files.lua
