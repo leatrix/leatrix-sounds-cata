@@ -1,3 +1,7 @@
+2.5.56 - 16th September 2021
+- Updated for World of Warcraft game version 2.5.2.
+- Sounds updated to 2.5.2.40045.
+
 2.5.49 - 27th August 2021
 - Sounds updated to 2.5.1.39640.
 
