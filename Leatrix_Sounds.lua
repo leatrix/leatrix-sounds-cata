@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 2.5.56 (16th September 2021)
+	-- Leatrix Sounds 2.5.57 (23rd September 2021)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB, LeaDropList = {}, {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "2.5.56"
+	LeaSoundsLC["AddonVer"] = "2.5.57"
 	LeaSoundsLC["RestartReq"] = nil
 
 	-- Get locale table
@@ -1101,7 +1101,7 @@
 		expTitle:ClearAllPoints()
 		expTitle:SetPoint("TOP", 0, -152)
 
-		local subTitle = LeaSoundsLC:MakeTx(interPanel, "curseforge.com/wow/addons/leatrix-sounds-bcc", 0, 0)
+		local subTitle = LeaSoundsLC:MakeTx(interPanel, "www.leatrix.com", 0, 0)
 		subTitle:SetFont(subTitle:GetFont(), 20)
 		subTitle:ClearAllPoints()
 		subTitle:SetPoint("BOTTOM", 0, 72)
