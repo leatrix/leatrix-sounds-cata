@@ -1,3 +1,6 @@
+2.5.59 - 13th October 2021
+- Sounds updated to 2.5.2.40488.
+
 2.5.57 - 23rd September 2021
 - Sounds updated to 2.5.2.40260.
 
