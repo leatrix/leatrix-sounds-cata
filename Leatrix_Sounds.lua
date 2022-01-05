@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 2.5.67 (16th November 2021)
+	-- Leatrix Sounds 2.5.82 (5th January 2022)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,8 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB, LeaDropList = {}, {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "2.5.67"
-	LeaSoundsLC["RestartReq"] = nil
+	LeaSoundsLC["AddonVer"] = "2.5.82"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -24,17 +23,6 @@
 			-- Game client is not Wow Classic
 			C_Timer.After(2, function()
 				print(L["LEATRIX SOUNDS: WRONG VERSION INSTALLED!"])
-			end)
-			return
-		end
-	end
-
-	-- If client restart is required and has not been done, show warning and quit
-	if LeaSoundsLC["RestartReq"] then
-		local metaVer = GetAddOnMetadata("Leatrix_Sounds", "Version")
-		if metaVer and metaVer ~= LeaSoundsLC["AddonVer"] then
-			C_Timer.After(1, function()
-				print(L["NOTICE!|nYou must fully restart your game client before you can use this version of Leatrix Sounds."])
 			end)
 			return
 		end
