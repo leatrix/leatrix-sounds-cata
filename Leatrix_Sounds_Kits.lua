@@ -1,15 +1,15 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound Kit Listing
-	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.2.41510
-	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.2.41510
+	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.3.41812
+	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.3.41812
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.2.41510"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.2.41510"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.3.41812"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.3.41812"
 
 	Leatrix_Sounds["Music"] = {
 
@@ -5659,6 +5659,16 @@
 		"Molten_Armor_Head#10011",
 		"MoltovCocktailImpact#8392",
 		"MON_Bloodthirsty_War_Wyrm_Foley#80029",
+		"MON_Incubus_Aggro#191951",
+		"MON_Incubus_Attack#191947",
+		"MON_Incubus_Death#191950",
+		"MON_Incubus_Entice Whip#191955",
+		"MON_Incubus_Pet_Summon#191956",
+		"MON_Incubus_PetAttack#191952",
+		"MON_Incubus_PetDismiss#191954",
+		"MON_Incubus_PetOrder#191953",
+		"MON_Incubus_Wound#191948",
+		"MON_Incubus_WoundCrit#191949",
 		"Mon_WarFox_Jump_Land#85488",
 		"MON_WarFox_Saddle_Mount_Foley#85490",
 		"MONEYFRAMECLOSE#892",
@@ -6822,6 +6832,7 @@
 		"SpectralTigerDeath#11886",
 		"SpectralTigerWound#11884",
 		"SpectralTigerWoundCrit#11885",
+		"Spell 2.5.3 Incubus Pet Cast - Shadow Cast#191957",
 		"SPELLBOOKCHANGEPAGE#605",
 		"SPELLBOOKCLOSE#604",
 		"SPELLBOOKOPEN#603",
@@ -7635,6 +7646,8 @@
 		"UD_DiscoBallMusic#12924",
 		"UD_DiscoBallSpawn#12922",
 		"UD_DiscoBallSpawn.wav#12923",
+		"UI_9.1.5_BehaviorWarning#188250",
+		"UI_9.1.5_ReportAcknowledgement#188252",
 		"UI_BnetToast#18019",
 		"UI_igStore_Buy_Button#39515",
 		"UI_igStore_Cancel_Button#39514",

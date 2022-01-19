@@ -1,13 +1,13 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound File Listing
-	-- Community CSV for wow_classic 2.5.2.41510 (ClassicRetail)
+	-- Community CSV for wow_classic 2.5.3.41812 (ClassicRetail)
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["ListFileVersion"] = "2.5.2.41510"
+	Leatrix_Sounds["ListFileVersion"] = "2.5.3.41812"
 
 	Leatrix_Sounds["MP3"] = {
 
@@ -7055,6 +7055,7 @@
 		"sound/creature/impvo/imp_order02.ogg#552533",
 		"sound/creature/impvo/imp_order03.ogg#552522",
 		"sound/creature/impvo/imp_order04.ogg#552521",
+		"sound/creature/incubus/incubus_fidget_4397392.ogg#4397392",
 		"sound/creature/infernal/minfernalaggroa.ogg#552542",
 		"sound/creature/infernal/minfernalattack1a.ogg#552537",
 		"sound/creature/infernal/minfernalattack1b.ogg#552539",
