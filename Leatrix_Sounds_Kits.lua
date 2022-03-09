@@ -1,15 +1,15 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound Kit Listing
-	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.3.42328
-	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.3.42328
+	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.3.42598
+	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.3.42598
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.3.42328"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.3.42328"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.3.42598"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.3.42598"
 
 	Leatrix_Sounds["Music"] = {
 

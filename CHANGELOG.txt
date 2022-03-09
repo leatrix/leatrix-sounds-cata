@@ -1,3 +1,6 @@
+2.5.94 - 9th March 2022
+- Sounds updated to 2.5.3.42598.
+
 2.5.91 - 16th February 2022
 - Sounds updated to 2.5.3.42328.
 
