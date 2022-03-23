@@ -1,13 +1,13 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound File Listing
-	-- 2.5.3.42598
+	-- 2.5.4.42873
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["ListFileVersion"] = "2.5.3.42598"
+	Leatrix_Sounds["ListFileVersion"] = "2.5.4.42873"
 
 	Leatrix_Sounds["MP3"] = {
 
@@ -8765,6 +8765,7 @@
 		"sound/creature/pathaleonthecalculator/tempest_pathal_attack03.ogg#602210",
 		"sound/creature/pathaleonthecalculator/tempest_pathal_beatdwn01.ogg#558116",
 		"sound/creature/pathaleonthecalculator/tempest_pathal_charm01.ogg#558110",
+		"sound/creature/pathaleonthecalculator/tempest_pathal_charm02.ogg#768645",
 		"sound/creature/pathaleonthecalculator/tempest_pathal_death01.ogg#558115",
 		"sound/creature/pathaleonthecalculator/tempest_pathal_slay01.ogg#558114",
 		"sound/creature/pathaleonthecalculator/tempest_pathal_slay02.ogg#558111",
@@ -11758,6 +11759,7 @@
 		"sound/interface/ui_voicechat_muteotheron.ogg#2113872",
 		"sound/interface/ui_voicechat_stoptalk.ogg#2113883",
 		"sound/interface/ui_voicechat_talkstart.ogg#2113882",
+		"sound/interface/ui_voicechat_ttsmessage.ogg#4192839",
 		"sound/interface/uilootpickupitem.ogg#567517",
 		"sound/interface/uminimapclose.ogg#567515",
 		"sound/interface/uminimapopen.ogg#567529",

@@ -1,15 +1,15 @@
 
 	----------------------------------------------------------------------
 	-- Leatrix Sounds Sound Kit Listing
-	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.3.42598
-	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.3.42598
+	-- wow.tools/dbc/api/export/?name=soundkitname&build=2.5.4.42873
+	-- wow.tools/dbc/api/export/?name=soundkit&build=2.5.4.42873
 	----------------------------------------------------------------------
 
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.3.42598"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.3.42598"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.4.42873"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.4.42873"
 
 	Leatrix_Sounds["Music"] = {
 
@@ -7669,6 +7669,7 @@
 		"UI_VoiceChat_MuteOtherOn#111081",
 		"UI_VoiceChat_StopTalk#110984",
 		"UI_VoiceChat_TalkStart#110983",
+		"UI_VoiceChat_TtsMessage#182876",
 		"Unarmed Small#2988",
 		"Unarmed_Generic(1)#1014",
 		"Unarmed_ShieldMetal#1021",
