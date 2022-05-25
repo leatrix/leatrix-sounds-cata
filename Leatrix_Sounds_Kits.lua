@@ -6,8 +6,8 @@
 	local void, Leatrix_Sounds = ...
 	local L = Leatrix_Sounds.L
 
-	Leatrix_Sounds["SoundKitVersion"] = "2.5.4.43638"
-	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.4.43638"
+	Leatrix_Sounds["SoundKitVersion"] = "2.5.4.43861"
+	Leatrix_Sounds["SoundKitNameVersion"] = "2.5.4.43861"
 
 	Leatrix_Sounds["Music"] = {
 
