@@ -1,5 +1,6 @@
-2.5.111 - 22nd June 2022
+2.5.112 - 22nd June 2022
 - Sounds updated to 2.5.4.44171.
+- In the game key bindings menu, you can now set a keybind to toggle Leatrix Sounds.
 
 2.5.109 - 8th June 2022
 - Sounds updated to 2.5.4.44036.

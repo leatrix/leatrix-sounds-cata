@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 2.5.111 (22nd June 2022)
+	-- Leatrix Sounds 2.5.112 (22nd June 2022)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB, LeaDropList = {}, {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "2.5.111"
+	LeaSoundsLC["AddonVer"] = "2.5.112"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -27,6 +27,9 @@
 			return
 		end
 	end
+
+	-- Set bindings translations
+	_G.BINDING_NAME_LEATRIX_SOUNDS_GLOBAL_TOGGLE = L["Toggle panel"]
 
 	----------------------------------------------------------------------
 	--	L00: Leatrix SOUNDS
