@@ -901,6 +901,7 @@
 			PageF:EnableKeyboard(true)
 		end)
 
+		local jumpList = 15 -- Number of tracks for next and previous page
 		PageF:EnableKeyboard(true)
 		PageF:SetScript("OnKeyUp", function(self, key)
 
@@ -930,7 +931,6 @@
 			end
 
 			-- Sound kit playback keys
-			local jumpList = 15 -- Number of tracks for next and previous page
 			if playingTrack and playingTrack > 0 then
 
 				if key == "E" then
