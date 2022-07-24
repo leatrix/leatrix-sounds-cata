@@ -1,5 +1,5 @@
-2.5.114.alpha.1 - 24th July 2022
-- Maintenance update.
+2.5.114.alpha.2 - 24th July 2022
+- Leatrix Sounds will now attempt to run on Wrath Beta but note that it hasn't been tested and there are no Wrath features yet.
 
 2.5.113 - 6th July 2022
 - Pressing W and S to traverse the listing will now show more tracks per page.
