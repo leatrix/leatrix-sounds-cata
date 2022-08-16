@@ -1,6 +1,7 @@
 2.5.119.alpha.1 - 16th August 2022
 - Updated for Wrath Classic.
 - Note that for Wrath Classic, sound kits are not available.
+- For Wrath, it's best to use alpha releases during Wrath Beta/prepatch so that you get the latest development updates.  To switch to alpha releases, open CurseForge App, right-click Leatrix Sounds in your Wrath addon listing and change release type to Alpha.  You can change it back to Release once Wrath is live for everyone.
 
 2.5.117 - 3rd August 2022
 - Sounds updated to 2.5.4.44833.
