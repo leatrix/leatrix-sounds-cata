@@ -1,5 +1,6 @@
-2.5.118.alpha.1 - 7th August 2022
-- It's very warm outside.
+2.5.119.alpha.1 - 16th August 2022
+- Updated for Wrath Classic.
+- Note that for Wrath Classic, sound kits are not available.
 
 2.5.117 - 3rd August 2022
 - Sounds updated to 2.5.4.44833.

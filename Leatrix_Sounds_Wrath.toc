@@ -1,4 +1,4 @@
-﻿## Interface: 20504
+﻿## Interface: 30400
 
 ## Title: Leatrix Sounds
 ## Notes: Massive collection of game sounds.
@@ -10,6 +10,5 @@
 ## X-Curse-Project-ID: 463920
 
 Leatrix_Sounds_Locale.lua
-Leatrix_Sounds_Files.lua
-Leatrix_Sounds_Kits.lua
+Leatrix_Sounds_Files_Wrath.lua
 Leatrix_Sounds.lua

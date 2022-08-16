@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 2.5.118.alpha.1 (7th August 2022)
+	-- Leatrix Sounds 2.5.119.alpha.1 (16th August 2022)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB, LeaDropList = {}, {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "2.5.118.alpha.1"
+	LeaSoundsLC["AddonVer"] = "2.5.119.alpha.1"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -25,6 +25,10 @@
 				print(L["LEATRIX SOUNDS: WRONG VERSION INSTALLED!"])
 			end)
 			return
+		end
+		if gametocversion > 30000 then
+			-- Game client is Wrath Beta
+			LeaSoundsLC.Wrath = true
 		end
 	end
 
@@ -422,7 +426,12 @@
 		end)
 
 		-- Create help button
-		local helpBtn = LeaSoundsLC:CreateButton("HelpButton", LeaSoundsLC["PageF"], "Help", "BOTTOMRIGHT", -10, 10, 25, "Searches can consist of up to 10 keywords.  Keywords prefixed with ! are excluded from search results.|n|nWhile a track is selected, you can press W and S to play the previous and next track, E to replay the currently selected track or Q to stop playback.|n|nHold SHIFT and click to print (left-click) or insert (right-click) the selected track details in chat.|n|nHold CTRL and click to print (left-click) or insert (right-click) a WoW.tools link for the selected track in chat.\n\nSources:\n- ListFile " .. Leatrix_Sounds["ListFileVersion"] .. "\n" .. "- SoundKit " .. Leatrix_Sounds["SoundKitVersion"] .. "\n" .. "- SoundKitName " .. Leatrix_Sounds["SoundKitNameVersion"])
+		local helpBtn
+		if LeaSoundsLC.Wrath then
+			helpBtn = LeaSoundsLC:CreateButton("HelpButton", LeaSoundsLC["PageF"], "Help", "BOTTOMRIGHT", -10, 10, 25, "Searches can consist of up to 10 keywords.  Keywords prefixed with ! are excluded from search results.|n|nWhile a track is selected, you can press W and S to play the previous and next track, E to replay the currently selected track or Q to stop playback.|n|nHold SHIFT and click to print (left-click) or insert (right-click) the selected track details in chat.|n|nHold CTRL and click to print (left-click) or insert (right-click) a WoW.tools link for the selected track in chat.")
+		else
+			helpBtn = LeaSoundsLC:CreateButton("HelpButton", LeaSoundsLC["PageF"], "Help", "BOTTOMRIGHT", -10, 10, 25, "Searches can consist of up to 10 keywords.  Keywords prefixed with ! are excluded from search results.|n|nWhile a track is selected, you can press W and S to play the previous and next track, E to replay the currently selected track or Q to stop playback.|n|nHold SHIFT and click to print (left-click) or insert (right-click) the selected track details in chat.|n|nHold CTRL and click to print (left-click) or insert (right-click) a WoW.tools link for the selected track in chat.\n\nSources:\n- ListFile " .. Leatrix_Sounds["ListFileVersion"] .. "\n" .. "- SoundKit " .. Leatrix_Sounds["SoundKitVersion"] .. "\n" .. "- SoundKitName " .. Leatrix_Sounds["SoundKitNameVersion"])
+		end
 		helpBtn:SetPushedTextOffset(0, 0)
 
 		-- Create checkboxes
@@ -436,7 +445,13 @@
 		LeaSoundsCB["SoundMusic"]:SetPoint("RIGHT", LeaSoundsCB["SoundSFX"], "LEFT", -50, 0)
 
 		-- Create dropdown menu for sound source
-		LeaSoundsLC:CreateDropDown("SoundSource", "", PageF, 146, "TOPLEFT", 426, -296, {L["Sound Files"], L["Sound Kits"]}, "You can choose to show sound files or sound kits in the listing.|n|nSound files are MP3 and OGG files.  Sound kits are containers for one or more sound files.|n|nIf you are looking for a file name and path to mute a game sound, choose Sound Files.|n|nYou can right-click the dropdown menu to toggle between Sound Files and Sound Kits.")
+		local ssTable = LeaSoundsLC:CreateDropDown("SoundSource", "", PageF, 146, "TOPLEFT", 426, -296, {L["Sound Files"], L["Sound Kits"]}, "You can choose to show sound files or sound kits in the listing.|n|nSound files are MP3 and OGG files.  Sound kits are containers for one or more sound files.|n|nIf you are looking for a file name and path to mute a game sound, choose Sound Files.|n|nYou can right-click the dropdown menu to toggle between Sound Files and Sound Kits.")
+
+		if LeaSoundsLC.Wrath then
+			ssTable:Hide()
+			-- LeaSoundsLC:LockItem(LeaSoundsCB["ListButtonSoundSource"], true)
+			LeaSoundsLC["SoundSource"] = 1
+		end
 
 		-- Create locals
 		local ListData, searchTable = {}, {}
