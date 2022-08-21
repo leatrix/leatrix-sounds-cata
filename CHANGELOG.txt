@@ -1,3 +1,7 @@
+2.5.120.alpha.1 - 21st August 2022
+- Sound kits are no longer available in the addon.
+- WoW.tools links are no longer supported.  The WoW.tools website is deprecated.
+
 2.5.119 - 17th August 2022
 - Updated for Wrath Classic.  Note that for Wrath Classic, sound kits are not available.
 
