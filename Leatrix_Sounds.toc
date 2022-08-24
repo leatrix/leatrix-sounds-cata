@@ -1,9 +1,9 @@
-﻿## Interface: 20504
+﻿## Interface: 30400
 
 ## Title: Leatrix Sounds
 ## Notes: Massive collection of game sounds.
 
-## Version: 2.5.120
+## Version: 3.0.00.alpha.1
 ## Author: Leatrix
 ## SavedVariables: LeaSoundsDB
 

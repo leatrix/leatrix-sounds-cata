@@ -1,3 +1,7 @@
+3.0.00.alpha.1 - 24th August 2022
+- Welcome to Wrath of the Lich King!
+- Removed BCC transitional code.
+
 2.5.120 - 24th August 2022
 - Sound kits are no longer available in the addon.
 - WoW.tools links are no longer supported.  The WoW.tools website is deprecated.

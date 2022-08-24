@@ -3,12 +3,12 @@
 ## Title: Leatrix Sounds
 ## Notes: Massive collection of game sounds.
 
-## Version: 2.5.120
+## Version: 3.0.00.alpha.1
 ## Author: Leatrix
 ## SavedVariables: LeaSoundsDB
 
 ## X-Curse-Project-ID: 463920
 
 Leatrix_Sounds_Locale.lua
-Leatrix_Sounds_Files_Wrath.lua
+Leatrix_Sounds_Files.lua
 Leatrix_Sounds.lua
