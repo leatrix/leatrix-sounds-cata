@@ -1,6 +1,8 @@
-3.0.00.alpha.1 - 24th August 2022
+3.0.00 - 29th August 2022
 - Welcome to Wrath of the Lich King!
 - Removed BCC transitional code.
+- Updated to game version 3.4.0.
+- Sounds updated to 3.4.0.45327.
 
 2.5.120 - 24th August 2022
 - Sound kits are no longer available in the addon.
