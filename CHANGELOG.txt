@@ -1,3 +1,6 @@
+3.0.01.alpha.1 - 4th September 2022
+- Chugga-chugga-chugga-chugga-choo-choo!
+
 3.0.00 - 29th August 2022
 - Welcome to Wrath of the Lich King!
 - Removed BCC transitional code.
