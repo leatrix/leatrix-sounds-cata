@@ -1,5 +1,8 @@
+3.0.70 - 21st December 2022
+- Sounds updated to 3.4.0.47168 (Dec 15 2022) (30400).
+
 3.0.61 - 1st December 2022
-- Sounds updated to 3.4.0.46779 (Nov 22 2022) (30400)
+- Sounds updated to 3.4.0.46779 (Nov 22 2022) (30400).
 
 3.0.60 - 23rd November 2022
 - In 3.4.1 (currently on the PTR), Blizzard's slash command system causes errors (just like retail) so /lts has been replaced with /run leasounds() (just like retail).  When Blizzard fixes their slash command system, the /lts slash command will return.
