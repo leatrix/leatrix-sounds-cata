@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 3.0.77 (4th January 2023)
+	-- Leatrix Sounds 3.0.78.alpha.1 (5th January 2023)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "3.0.77"
+	LeaSoundsLC["AddonVer"] = "3.0.78.alpha.1"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -869,6 +869,8 @@
 	if not LeaSoundsLC.NewPatch then
 		_G.SLASH_Leatrix_Sounds1 = "/lts"
 		_G.SLASH_Leatrix_Sounds2 = "/leasounds"
+	else
+		_G.SLASH_Leatrix_Sounds1 = "/zts" -- temp
 	end
 
 	SlashCmdList["Leatrix_Sounds"] = function(self)
@@ -914,6 +916,9 @@
 		slashTitle:SetFont(slashTitle:GetFont(), 72)
 		slashTitle:ClearAllPoints()
 		slashTitle:SetPoint("BOTTOM", subTitle, "TOP", 0, 40)
+		if LeaSoundsLC.NewPatch then
+			slashTitle:SetText("/run leasounds()")
+		end
 
 		local pTex = interPanel:CreateTexture(nil, "BACKGROUND")
 		pTex:SetAllPoints()
