@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 3.0.79 (11th January 2023)
+	-- Leatrix Sounds 3.0.83 (18th January 2023)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "3.0.79"
+	LeaSoundsLC["AddonVer"] = "3.0.83"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -25,9 +25,6 @@
 				print(L["LEATRIX SOUNDS: WRONG VERSION INSTALLED!"])
 			end)
 			return
-		end
-		if gametocversion == 30401 then
-			LeaSoundsLC.NewPatch = true
 		end
 	end
 
@@ -866,12 +863,9 @@
 	end
 
 	-- Add slash commands
-	if not LeaSoundsLC.NewPatch then
-		_G.SLASH_Leatrix_Sounds1 = "/lts"
-		_G.SLASH_Leatrix_Sounds2 = "/leasounds"
-	else
-		_G.SLASH_Leatrix_Sounds1 = "/zts" -- temp
-	end
+	-- _G.SLASH_Leatrix_Sounds1 = "/lts"
+	-- _G.SLASH_Leatrix_Sounds2 = "/leasounds"
+	_G.SLASH_Leatrix_Sounds1 = "/zts" -- temp
 
 	SlashCmdList["Leatrix_Sounds"] = function(self)
 		-- Run slash command function
@@ -882,10 +876,8 @@
 	end
 
 	-- Replacement for broken slash command system
-	if LeaSoundsLC.NewPatch then
-		function leasounds(self)
-			SlashFunc(self or "")
-		end
+	function leasounds(self)
+		SlashFunc(self or "")
 	end
 
 	----------------------------------------------------------------------
@@ -912,13 +904,10 @@
 		subTitle:ClearAllPoints()
 		subTitle:SetPoint("BOTTOM", 0, 72)
 
-		local slashTitle = LeaSoundsLC:MakeTx(interPanel, "/lts", 0, 0)
+		local slashTitle = LeaSoundsLC:MakeTx(interPanel, "/run leasounds()", 0, 0)
 		slashTitle:SetFont(slashTitle:GetFont(), 72)
 		slashTitle:ClearAllPoints()
 		slashTitle:SetPoint("BOTTOM", subTitle, "TOP", 0, 40)
-		if LeaSoundsLC.NewPatch then
-			slashTitle:SetText("/run leasounds()")
-		end
 
 		local pTex = interPanel:CreateTexture(nil, "BACKGROUND")
 		pTex:SetAllPoints()
