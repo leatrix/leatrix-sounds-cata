@@ -1,4 +1,4 @@
-3.0.123.alpha.1 - 27th March 2023
+3.0.123 - 27th March 2023
 - Maintenance update.
 
 3.0.105 - 8th February 2023
