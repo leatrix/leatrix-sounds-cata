@@ -1,3 +1,6 @@
+3.0.135 - 11th June 2023
+- The /lts slash command has returned.  /run leasounds() has been removed.
+
 3.0.134 - 3rd June 2023
 - Sounds updated to 3.4.1.49822 (May 26 2023) (30401).
 
