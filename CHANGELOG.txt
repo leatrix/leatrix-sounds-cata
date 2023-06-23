@@ -1,3 +1,7 @@
+3.0.137 - 24th June 2023
+- Updated for game version 3.4.2.
+- Sounds updated to 3.4.2.50172 (Jun 22 2023) (30402).
+
 3.0.136 - 19th June 2023
 - Sounds updated to 3.4.1.49936 (Jun 6 2023) (30401).
 
