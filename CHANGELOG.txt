@@ -1,3 +1,6 @@
+3.0.146 - 23rd August 2023
+- Sounds updated to 3.4.2.50664 (Jul 27 2023) (30402).
+
 3.0.142 - 26th July 2023
 - Sounds updated to 3.4.2.50375 (Jul 7 2023) (30402).
 
