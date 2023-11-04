@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 3.0.162 (1st November 2023)
+	-- Leatrix Sounds 3.0.163.alpha.1 (1st November 2023)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "3.0.162"
+	LeaSoundsLC["AddonVer"] = "3.0.163.alpha.1"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -765,11 +765,6 @@
 			end
 
 		end)
-
-		-- Set keyboard when stop button status changes and on startup
-		stopBtn:HookScript("OnEnable", function() PageF:SetPropagateKeyboardInput(false) end)
-		stopBtn:HookScript("OnDisable", function() PageF:SetPropagateKeyboardInput(true) end)
-		PageF:SetPropagateKeyboardInput(true)
 
 		-- Release memory
 		LeaSoundsLC.Player = nil
