@@ -1,4 +1,4 @@
-3.0.163.alpha.1 - 1st November 2023
+3.0.163 - 8th November 2023
 - Fixed an issue which caused a Lua error when playing a track during combat.
 
 3.0.162 - 1st November 2023
