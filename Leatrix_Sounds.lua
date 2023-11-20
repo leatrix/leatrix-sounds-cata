@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 3.0.164 (15th November 2023)
+	-- Leatrix Sounds 3.0.165.alpha.1 (15th November 2023)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "3.0.164"
+	LeaSoundsLC["AddonVer"] = "3.0.165.alpha.1"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -397,6 +397,8 @@
 			UpdateList()
 			-- Lock button
 			LeaSoundsLC:LockItem(stopBtn, true)
+			-- Disable keyboard navigation
+			PageF:EnableKeyboard(false)
 		end)
 
 		-- Create editbox for search
@@ -628,6 +630,8 @@
 								button.s:Hide()
 							end
 						end
+						-- Enable keyboard navigation
+						PageF:EnableKeyboard(true)
 					end
 				elseif btn == "RightButton" then
 					-- Build sound ID search criteria in editbox
@@ -692,15 +696,15 @@
 		SetListingFunc()
 
 		-- Keyboard input
-		hooksecurefunc("ChatEdit_ActivateChat", function()
+		-- hooksecurefunc("ChatEdit_ActivateChat", function()
 			-- Disable hotkeys when chat editbox is activated
-			PageF:EnableKeyboard(false)
-		end)
+			-- PageF:EnableKeyboard(false)
+		-- end)
 
-		hooksecurefunc("ChatEdit_DeactivateChat", function()
+		-- hooksecurefunc("ChatEdit_DeactivateChat", function()
 			-- Enable hotkeys when chat editbox is deactivated
-			PageF:EnableKeyboard(true)
-		end)
+			-- PageF:EnableKeyboard(true)
+		-- end)
 
 		local jumpList = 15 -- Number of tracks for next and previous page
 		PageF:EnableKeyboard(true)
@@ -765,6 +769,7 @@
 			end
 
 		end)
+		PageF:EnableKeyboard(false)
 
 		-- Release memory
 		LeaSoundsLC.Player = nil
