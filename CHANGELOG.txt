@@ -1,4 +1,4 @@
-3.0.165.alpha.1 - 15th November 2023
+3.0.165 - 22nd November 2023
 - Fixed an issue which caused keypresses to be intercepted when a track wasn't playing.
 
 3.0.163 - 8th November 2023
