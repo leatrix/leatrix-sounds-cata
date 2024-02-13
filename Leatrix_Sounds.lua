@@ -32,7 +32,7 @@
 	_G.BINDING_NAME_LEATRIX_SOUNDS_GLOBAL_TOGGLE = L["Toggle panel"]
 
 	----------------------------------------------------------------------
-	--	L00: Leatrix SOUNDS
+	--	L00: Leatrix Sounds
 	----------------------------------------------------------------------
 
 	-- Initialise variables
