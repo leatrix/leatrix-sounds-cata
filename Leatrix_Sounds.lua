@@ -365,8 +365,8 @@
 					button:SetText("---")
 					button:Hide()
 				end
-				scrollFrame.child:SetSize(200, #ListData + (14*15) - 1) --++ LeaSoundsLC.NewPatch
 			end
+			scrollFrame.child:SetSize(200, #ListData + (14*15) - 1) --++ LeaSoundsLC.NewPatch
 		end
 
 		-- Create scroll frame
