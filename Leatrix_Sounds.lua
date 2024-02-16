@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 3.0.179 (14th January 2024)
+	-- Leatrix Sounds 3.0.180.alpha.1 (14th January 2024)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "3.0.179"
+	LeaSoundsLC["AddonVer"] = "3.0.180.alpha.1"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -369,7 +369,7 @@
 		end
 
 		-- Create scroll frame
-		scrollFrame = CreateFrame("ScrollFrame", "LeaSoundsScrollFrame", LeaSoundsLC["PageF"], "ScrollFrameTemplate")
+		scrollFrame = CreateFrame("ScrollFrame", nil, LeaSoundsLC["PageF"], "ScrollFrameTemplate")
 		scrollFrame:SetPoint("TOPLEFT", 0, -32)
 		scrollFrame:SetPoint("BOTTOMRIGHT", -30, 52)
 		scrollFrame:SetPanExtent(1)
