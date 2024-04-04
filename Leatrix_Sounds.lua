@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 3.0.187 (3rd April 2024)
+	-- Leatrix Sounds 3.0.188.alpha.1 (3rd April 2024)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +10,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "3.0.187"
+	LeaSoundsLC["AddonVer"] = "3.0.188.alpha.1"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...
@@ -19,7 +19,7 @@
 	-- Check Wow version is valid
 	do
 		local gameversion, gamebuild, gamedate, gametocversion = GetBuildInfo()
-		if gametocversion and gametocversion < 30000 or gametocversion > 39999 then
+		if gametocversion and gametocversion < 30000 or gametocversion > 49999 then
 			-- Game client is not Wow Classic
 			C_Timer.After(2, function()
 				print(L["LEATRIX SOUNDS: WRONG VERSION INSTALLED!"])
