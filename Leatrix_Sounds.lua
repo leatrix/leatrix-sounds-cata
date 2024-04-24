@@ -1,6 +1,6 @@
 ﻿
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 4.0.00 (23rd April 2024)
+	-- Leatrix Sounds 4.0.00 (24th April 2024)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -929,7 +929,7 @@
 		maintitle:ClearAllPoints()
 		maintitle:SetPoint("TOP", 0, -72)
 
-		local expTitle = LeaSoundsLC:MakeTx(interPanel, "Wrath Classic & Cataclysm Classic", 0, 0)
+		local expTitle = LeaSoundsLC:MakeTx(interPanel, "Cataclysm Classic", 0, 0)
 		expTitle:SetFont(expTitle:GetFont(), 32)
 		expTitle:ClearAllPoints()
 		expTitle:SetPoint("TOP", 0, -152)

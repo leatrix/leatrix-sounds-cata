@@ -1,6 +1,7 @@
-﻿4.0.00 - 23rd April 2024
+﻿4.0.00 - 24th April 2024
 - Welcome to Cataclysm Classic.
-- Sounds updated to 4.4.0.54217 (Apr 10 2024) (40400).
+- Sounds updated to 4.4.0.54377 (Apr 22 2024) (40400).
+- This release and future releases will only work with Cataclysm Classic (not Wrath of the Lich King Classic).
 
 3.0.189 - 16th April 2024
 - Updated for Cataclysm Classic.
