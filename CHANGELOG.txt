@@ -1,4 +1,9 @@
-﻿4.0.00 - 24th April 2024
+﻿4.0.01.alpha.1 - 29th April 2024
+- Added 'Unknown' checkbox (mirroring retail).
+- You can now hold CTRL and click to print (left-click) or insert (right-click) the selected track ID in chat.
+- Sounds will now play by their ID instead of their filename.
+
+4.0.00 - 24th April 2024
 - Welcome to Cataclysm Classic.
 - Sounds updated to 4.4.0.54377 (Apr 22 2024) (40400).
 - This release and future releases will only work with Cataclysm Classic (not Wrath of the Lich King Classic).
