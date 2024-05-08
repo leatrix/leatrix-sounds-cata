@@ -1,5 +1,6 @@
-﻿4.0.02.alpha.1 - 29th April 2024
+﻿4.0.05 - 8th May 2024
 - Added ability to toggle the main panel by clicking the slash command logo in the interface options panel.
+- Sounds updated to 4.4.0.54558 (May 3 2024) (40400).
 
 4.0.01 - 29th April 2024
 - Added 'Unknown' checkbox (mirroring retail).

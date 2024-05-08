@@ -3,7 +3,7 @@
 ## Title: Leatrix Sounds
 ## Notes: Massive collection of game sounds.
 
-## Version: 4.0.02.alpha.1
+## Version: 4.0.05
 ## Author: Leatrix
 ## SavedVariables: LeaSoundsDB
 
