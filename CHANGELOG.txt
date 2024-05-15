@@ -1,4 +1,7 @@
-﻿4.0.05 - 8th May 2024
+﻿4.0.06 - 15th May 2024
+- Sounds updated to 4.4.0.54670 (May 10 2024) (40400).
+
+4.0.05 - 8th May 2024
 - Added ability to toggle the main panel by clicking the slash command logo in the interface options panel.
 - Sounds updated to 4.4.0.54558 (May 3 2024) (40400).
 
