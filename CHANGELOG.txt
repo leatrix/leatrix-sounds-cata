@@ -1,4 +1,7 @@
-﻿4.0.18 - 31st July 2024
+﻿4.0.21 - 21st August 2024
+- Sounds updated to 4.4.0.56014 (Aug 5 2024) (40400).
+
+4.0.18 - 31st July 2024
 - Sounds updated to 4.4.0.55639 (Jul 12 2024) (40400).
 
 4.0.13 - 26th June 2024
