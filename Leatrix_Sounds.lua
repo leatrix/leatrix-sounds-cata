@@ -393,6 +393,9 @@
 		stopBtn:Hide(); stopBtn:Show()
 		LeaSoundsLC:LockItem(stopBtn, true)
 		stopBtn:SetScript("OnClick", function()
+			-- Close chat editbox
+			local eBox = ChatEdit_ChooseBoxForSend()
+			eBox:ClearFocus()
 			-- Stop currently playing track
 			if musicHandle then
 				StopSound(musicHandle)
@@ -639,6 +642,9 @@
 								return
 							end
 						end
+						-- Close editbox
+						local eBox = ChatEdit_ChooseBoxForSend()
+						eBox:ClearFocus()
 						-- Enable sound if required
 						if GetCVar("Sound_EnableAllSound") == "0" then SetCVar("Sound_EnableAllSound", "1") end
 						-- Disable music if it's currently enabled
