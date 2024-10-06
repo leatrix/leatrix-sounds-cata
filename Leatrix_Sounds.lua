@@ -626,7 +626,7 @@
 					if strfind(item, "#") then
 						-- Print track name in chat if shift is held
 						if IsShiftKeyDown() and not IsControlKeyDown() then
-							LeaSoundsCB["StopPlaybackButton"]:Click()
+							PageF:EnableKeyboard(false)
 							DEFAULT_CHAT_FRAME:AddMessage(item)
 							return
 						end
@@ -634,7 +634,7 @@
 						if IsControlKeyDown() and not IsShiftKeyDown() then
 							local file, soundID = item:match("([^,]+)%#([^,]+)")
 							if soundID then
-								LeaSoundsCB["StopPlaybackButton"]:Click()
+								PageF:EnableKeyboard(false)
 								DEFAULT_CHAT_FRAME:AddMessage(soundID)
 								return
 							end
@@ -677,7 +677,7 @@
 						-- Do nothing if its a blank line or informational heading
 						if not item or strfind(item, "|c") then return end
 						if strfind(item, "#") then
-							LeaSoundsCB["StopPlaybackButton"]:Click()
+							PageF:EnableKeyboard(false)
 							local file, soundID = item:match("([^,]+)%#([^,]+)")
 							local eBox = ChatEdit_ChooseBoxForSend()
 							ChatEdit_ActivateChat(eBox)
@@ -701,7 +701,7 @@
 						if strfind(item, "#") then
 							if IsShiftKeyDown() and not IsControlKeyDown() then
 								-- Print track name in chat editbox and highlight it
-								LeaSoundsCB["StopPlaybackButton"]:Click()
+								PageF:EnableKeyboard(false)
 								local eBox = ChatEdit_ChooseBoxForSend()
 								ChatEdit_ActivateChat(eBox)
 								eBox:SetText(item)
@@ -711,7 +711,7 @@
 								-- Print track name in chat editbox and highlight it
 								local file, soundID = item:match("([^,]+)%#([^,]+)")
 								if soundID then
-									LeaSoundsCB["StopPlaybackButton"]:Click()
+									PageF:EnableKeyboard(false)
 									local eBox = ChatEdit_ChooseBoxForSend()
 									ChatEdit_ActivateChat(eBox)
 									eBox:SetText(soundID)
