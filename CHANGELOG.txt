@@ -1,4 +1,4 @@
-﻿4.0.28.alpha.1 - 2nd October 2024
+﻿4.0.28 - 9th October 2024
 - PTR (4.4.1): Updated for game version 4.4.1.
 - Holding shift or control to print or insert track details into chat will now temporarily disable keyboard input into the Leatrix Sounds panel to make copy and paste easier.  Clicking a track will enable keyboard input again.
 
