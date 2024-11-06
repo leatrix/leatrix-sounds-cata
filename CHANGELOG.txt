@@ -1,4 +1,7 @@
-﻿4.0.31 - 30th October 2024
+﻿4.0.33 - 6th November 2024
+- Sounds updated to 4.4.1.57359 (Oct 30 2024) (40401).
+
+4.0.31 - 30th October 2024
 - Updated for game version 4.4.1.
 - Sounds updated to 4.4.1.57294 (Oct 25 2024) (40401).
 
