@@ -1,6 +1,17 @@
 ﻿
+
+
+C_Timer.After(6, function()
+
+	print("Leatrix Sounds for Cataclysm Classic and Classic Era has moved.  All game versions of Leatrix Sounds are now under the same project ID.|n|nTo continue receiving updates, please remove this copy of Leatrix Sounds and install it again by searching for Leatrix Sounds on CurseForge App or by visiting curseforge.com/wow/addons/leatrix-sounds.")
+
+end)
+
+if not thisleasoundsthingdoesnotexist then return end
+
+
 	----------------------------------------------------------------------
-	-- Leatrix Sounds 4.0.34 (13th October 2024)
+	-- Leatrix Sounds 4.0.35e (19th October 2024)
 	----------------------------------------------------------------------
 
 	--  Create global table
@@ -10,7 +21,7 @@
 	local LeaSoundsLC, LeaSoundsCB = {}, {}
 
 	-- Version
-	LeaSoundsLC["AddonVer"] = "4.0.34"
+	LeaSoundsLC["AddonVer"] = "4.0.35e"
 
 	-- Get locale table
 	local void, Leatrix_Sounds = ...

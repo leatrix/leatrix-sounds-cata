@@ -1,4 +1,9 @@
-﻿4.0.33 - 6th November 2024
+﻿4.0.35e - 19th November 2024
+- Leatrix Sounds for Cataclysm Classic and Classic Era has moved.  
+- All game versions of Leatrix Sounds are now under the same project ID.
+- To continue receiving updates, please remove this copy of Leatrix Sounds and install it again by searching for Leatrix Sounds on CurseForge App or by visiting curseforge.com/wow/addons/leatrix-sounds.
+
+4.0.33 - 6th November 2024
 - Sounds updated to 4.4.1.57359 (Oct 30 2024) (40401).
 
 4.0.31 - 30th October 2024
